@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    margin-top: 7px;
+    padding: 0;
+}
+
+
+.products{
+    
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 0;
+}
+
+
+.product{
+    width: 30%;
+    text-align: center;
+    height: max-content;
+    display: flex;
+    
+}
+
+h1{
+    align-items: center;
+    color: brown;
+    text-align: center;    
+}
+img{
+    height: 250px;
+    width:max-content
+}
+p{
+    text-align: center;
+}
